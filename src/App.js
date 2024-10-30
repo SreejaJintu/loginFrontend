@@ -8,7 +8,7 @@ import Home from "./Home";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home/>} />
+      <Route path="/" index element={<Signup />} />
       <Route path="/home" element={<Home/>} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
